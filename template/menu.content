@@ -1,0 +1,30 @@
+<!-- Header -->
+	<header id="header">
+		<div class="inner">
+
+			<!-- Logo -->
+				<a href="@pathto(index)" class="logo">
+					<span class="symbol"><img src="@pathtofile(site/images/logo.svg)" alt="" /></span><span class="title">Phantom</span>
+				</a>
+
+			<!-- Nav -->
+				<nav>
+					<ul>
+						<li><a href="#menu">Menu</a></li>
+					</ul>
+				</nav>
+
+		</div>
+	</header>
+
+<!-- Menu -->
+	<nav id="menu">
+		<h2>Menu</h2>
+		<ul>
+			<li><a href="@pathto(index)">Home</a></li>
+			<li><a href="@pathto(generic)">Ipsum veroeros</a></li>
+			<li><a href="@pathto(generic)">Tempus etiam</a></li>
+			<li><a href="@pathto(generic)">Consequat dolor</a></li>
+			<li><a href="@pathto(elements)">Elements</a></li>
+		</ul>
+	</nav>
